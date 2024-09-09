@@ -1,0 +1,38 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+section {
+  background-color: rgba(243, 233, 235, 1);
+  height: 696px;
+  padding: 64px;
+}
+.imag {
+  margin: 0 auto;
+  width: 1200px;
+}
+.download-image img {
+  width: 595px;
+  height: 568px;
+}
+.m {
+  margin-left: 25px;
+  width: 560px;
+}
+.mobile {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: rgba(135, 30, 53, 1);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+span {
+  padding-left: 1px;
+  padding-bottom: 1px;
+  height: 27px;
+  display: inline-block;
+}
