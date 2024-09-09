@@ -9,6 +9,6 @@ import { AuthenticationService } from '../../../../core/services/authentication.
 export class RegsiterComponent implements OnInit {
   constructor(private authService: AuthenticationService) {}
   ngOnInit(): void {
-    this.authService.register(null);
+    // this.authService.register(null);
   }
 }
