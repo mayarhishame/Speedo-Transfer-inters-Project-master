@@ -27,7 +27,6 @@ export class SessionManagementService {
       this.resetInactivityTimer.bind(this)
     );
     document.addEventListener('keypress', this.resetInactivityTimer.bind(this));
-
     this.resetInactivityTimer();
   }
 }
