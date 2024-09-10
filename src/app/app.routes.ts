@@ -4,6 +4,10 @@ import { LoginComponent } from './modules/authentication/pages/login/login.compo
 import { MoneyTransferAmoutComponent } from './modules/money-transfer/components/money-transfer-amout/money-transfer-amout.component';
 import { MoneyTransferConformationComponent } from './modules/money-transfer/components/money-transfer-conformation/money-transfer-conformation.component';
 import { RegsiterComponent } from './modules/authentication/pages/register/regsiter.component';
+import { MyProfileComponent } from './modules/user-account/my-profile/my-profile.component';
+import { PaymentsHistoryComponent } from './modules/user-account/payments-history/payments-history.component';
+import { ChangePasswordComponent } from './modules/user-account/change-password/change-password.component';
+import { SettingsComponent } from './modules/user-account/settings/settings.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -32,6 +36,22 @@ export const routes: Routes = [
   {
     path: 'register',
     component: RegsiterComponent,
+  },
+  {
+    path: 'profile',
+    component: MyProfileComponent,
+  },
+  {
+    path: 'paymentHistory',
+    component: PaymentsHistoryComponent,
+  },
+  {
+    path: 'changePassword',
+    component: ChangePasswordComponent,
+  },
+  {
+    path: 'settings',
+    component: SettingsComponent,
   },
   { path: '**', redirectTo: 'auth', pathMatch: 'full' },
 ];
